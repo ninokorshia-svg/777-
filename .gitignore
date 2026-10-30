@@ -1,0 +1,21 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Database files - Never include in Git or production exports
+data/*.sqlite*
+data/*.db
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+!data/.gitkeep
+
+# Cloudflare Wrangler local state
+.wrangler/
+.mf/
